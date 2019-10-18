@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.FakeRepositories",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.IRepositories", "Pocztowy.IRepositories\Pocztowy.IRepositories.csproj", "{BFED91B1-4FE3-4307-92EA-E4B87E3015DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pocztowy.Calculators", "Pocztowy.Calculators\Pocztowy.Calculators.csproj", "{06F06D2A-729D-4A44-83D8-C985941BDCD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.Calculators", "Pocztowy.Calculators\Pocztowy.Calculators.csproj", "{06F06D2A-729D-4A44-83D8-C985941BDCD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pocztowy.Calculators.Tests", "Pocztowy.Calculators.Tests\Pocztowy.Calculators.Tests.csproj", "{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.Calculators.Tests", "Pocztowy.Calculators.Tests\Pocztowy.Calculators.Tests.csproj", "{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pocztowy.Service", "Pocztowy.Service\Pocztowy.Service.csproj", "{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,18 @@ Global
 		{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}.Release|x64.Build.0 = Release|Any CPU
 		{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}.Release|x86.Build.0 = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|x64.Build.0 = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Debug|x86.Build.0 = Debug|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|x64.ActiveCfg = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|x64.Build.0 = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|x86.ActiveCfg = Release|Any CPU
+		{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
