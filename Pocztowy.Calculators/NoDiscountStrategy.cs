@@ -2,7 +2,7 @@
 
 namespace Pocztowy.Calculators
 {
-    public class AlwaysNoDiscountStrategy : IDiscountStrategy
+    public class NoDiscountStrategy : IDiscountStrategy
     {
         public bool CanDiscount(Order order) => false;
 
