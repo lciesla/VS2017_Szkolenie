@@ -32,3 +32,7 @@
 | F9   | Dodaj lub usuń pułapkę  |
 | Ctrl + F9  | Wyłącz pułapkę  |
 | Ctrl + Shift + F9  | Usuń wszystkie pułapki  |
+
+### Dodatki
+AutoMapper
+MappingGenerator

@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.Calculators", "Poc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.Calculators.Tests", "Pocztowy.Calculators.Tests\Pocztowy.Calculators.Tests.csproj", "{A9C1F5A8-0F82-4090-9EC1-FBFE2801355B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pocztowy.Service", "Pocztowy.Service\Pocztowy.Service.csproj", "{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocztowy.Service", "Pocztowy.Service\Pocztowy.Service.csproj", "{18E42524-D7B4-41A5-BC8C-6D94E3AB4674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE3A38D2-1064-4720-AB4B-C20E054F4781}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

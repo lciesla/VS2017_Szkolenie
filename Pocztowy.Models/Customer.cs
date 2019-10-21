@@ -6,17 +6,12 @@ using System.Collections;
 namespace Pocztowy.Models
 {
 
+
     // Ctrl+[, S
     public class Customer : BaseEntity
     {
-       
-
-
         // Ctrl+E,V Duplikacja kodu
-        
-
         // Ctrl+L usunięcie linii
-
         private string _lastName;
 
         public Customer(string firstName, string lastName, byte age)
@@ -26,7 +21,7 @@ namespace Pocztowy.Models
             Age = age;
         }
 
-       
+
 
         // Ctrl+M+M (zwinięcie/rozwinięcie aktywnego regionu)
         // Ctrl+M+L (zwinięcie/rozwinięcie wszystkich regionów)

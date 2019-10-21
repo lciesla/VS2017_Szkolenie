@@ -32,8 +32,27 @@ namespace Pocztowy.ConsoleClient
 
     class Program
     {
+
+        CustomerDTO Map(Customer customer)
+        {
+            return new CustomerDTO()
+            {
+                Id = customer.Id,
+                FirstName = customer.FirstName,
+                LastName = customer.LastName
+            };
+        }
+
+        AddressDTO Map(Address address)
+        {
+            return new AddressDTO(city: address.City, street: address.Street);
+        }
+
         static void Main(string[] args)
         {
+
+            
+
             Console.ReadKey();
 
         }

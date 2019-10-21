@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Threading.Tasks;
 using NLog;
 using Topshelf;
@@ -7,6 +8,7 @@ namespace Pocztowy.Service
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             HostFactory.Run(
@@ -34,7 +36,14 @@ namespace Pocztowy.Service
     {
         private static Logger log = LogManager.GetCurrentClassLogger();
 
+        private CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+        private CancellationToken cancellationToken;
+
         private volatile bool continueFlag = true;
+
+        public MyService()
+        {
+        }
 
         public void Start()
         {
